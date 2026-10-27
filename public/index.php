@@ -5,7 +5,7 @@
  * Proxies traffic to Express.js (http://127.0.0.1:5000) when running.
  */
 
-$expressHost = 'http://127.0.0.1:5000';
+$expressHost = 'http://127.0.0.1:5055';
 $requestUri  = $_SERVER['REQUEST_URI'] ?? '/';
 $method      = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 
